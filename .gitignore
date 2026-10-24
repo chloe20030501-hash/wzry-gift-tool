@@ -1,0 +1,65 @@
+# 注意：git 的忽略规则不支持行尾注释，
+# 所以下面每一条规则都必须独占一行，注释写在规则上方。
+
+# ---- 个人数据（绝对不要提交）----
+# 朋友档案：含营地ID与聊天备注
+data/friends.json
+# 在售名单：内容和时效强相关
+data/onsale.json
+# 人工标注
+data/skin_notes.json
+# 抓包留档：含真实玩家数据
+dumps/
+# 生成的报告：含真实玩家数据
+output/
+# 营地 CK：等于账号凭据，绝对不能提交
+ck.txt
+# 抓包插件的原始响应 dump
+capture/dump/
+# 域名发现日志（含真实玩家访问记录）
+capture/hosts.log
+capture/hosts_*.log
+# 连接目标日志（含真实玩家访问记录）
+capture/conn.log
+capture/conn_*.log
+# 请求头侦察日志
+capture/headers.log
+# CK 来源记录
+ck_source.txt
+# 完整流量留档
+capture/flows.mitm
+# 给手机用的 CA 证书拷贝（同目录含私钥，绝不提交）
+capture/证书发到手机/
+# WireGuard 客户端配置（含 VPN 私钥，绝不提交）
+capture/*.conf
+capture/*.cer
+capture/*.pem
+capture/*.key
+capture/*.crt
+
+# ---- 不公开：抓包工具与内部文档 ----
+# 公开仓库里不出现「抓取第三方 App 凭据」的工具与指引（合规）
+capture/
+# 内部工作笔记（含本机路径、个人偏好、抓包过程记录）
+HANDOFF.md
+AGENTS.md
+CLAUDE.md
+docs/今日总结与下一步.md
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---- 打包产物 ----
+dist/
+.tmp/

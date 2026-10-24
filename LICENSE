@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 wzry-gift-tool contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 附加声明 (Additional Notice)
+
+本项目仅用于个人编程学习、接口逆向研究与技术演示，**不提供任何游戏内服务，不涉及任何交易**。
+
+- 项目不含、也不分发任何腾讯游戏的素材、图片、音频资源；`data/heroes.json`
+  中的英雄与皮肤**名称**取自官方公开页面，仅用于本地匹配，其知识产权归腾讯游戏所有。
+- 项目通过非官方、未公开的接口读取**使用者本人有权查看**的公开数据。使用者应自行确保
+  其使用行为符合所在地区法律及平台用户协议；**禁止用于商业用途**，请勿转售或提供付费服务。
+- 使用 CK(账号凭据) 存在账号风控风险，请务必使用小号，风险由使用者自负。
+
+## 针对商业化/规模化分发的额外要求
+
+如果你要把本项目（或其衍生版本）**公开分发、部署为在线服务、或做成小程序/App 提供给他人使用**，
+请先自行评估合规性，并至少做到：
+
+1. 不使用"王者荣耀""王者营地"等官方名称作为产品名，避免被认定为官方产品；
+2. 不收集、不存储他人的账号凭据；CK 只应由使用者本人持有；
+3. 明确标注"非官方工具"，并提供免责声明与删除数据的入口。
